@@ -38,7 +38,7 @@ class Bub:
         canvas.delete(self.id)
         Bub.number -= 1
         Bub.clicked += 1
-        tk.title(f'Клацнуто: {Bub.clicked}')
+        tk.title(f'Балів: {Bub.clicked}')
 
 def play():
     if Bub.number < maxB:
